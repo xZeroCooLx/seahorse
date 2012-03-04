@@ -2,21 +2,21 @@
       type="guide" style="task"
       id="index">
   <info>
-    <title type="link">Seahorse Encryption Key Manager</title>
-    <title type="text">Seahorse Encryption Key Manager</title>
-    <revision version="0.1" date="2011-06-17" status="stub"/>
+    <title type="link">Passwords and Keys</title>
+    <title type="text">Passwords and Keys</title>
+    <revision version="0.1" date="2011-06-17" status="draft"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
       <email>jwcampbell@gmail.com</email>
     </credit>
 
-    <desc>Seahorse Encryption Key Manager</desc>
+    <desc>Passwords and Keys</desc>
   </info>
 
-  <title>Seahorse Encryption Key Manager</title>
+  <title>Passwords and Keys</title>
 
-  <p>Welcome to the <app>Seahorse</app> help guide.</p>
+  <p>Welcome to the <app>Passwords and Keys</app> help guide.</p>
   
   <section id="learn-about-keys" style="2column">
     <title>Learn about keys</title>
