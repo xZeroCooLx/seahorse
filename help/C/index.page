@@ -1,57 +1,46 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      xmlns:its="http://www.w3.org/2005/11/its"
-      type="guide" style="2column task"
+      type="guide" style="task"
       id="index">
-
   <info>
-    <title type="link">Passwords and Keys</title>
-    <title type="text">Passwords and Keys</title>
-    <revision version="0.1" date="2011-06-17" status="draft"/>
-    <revision pkgversion="3.9" date="2013-08-14" status="review"/>
+    <title type="link">Seahorse Encryption Key Manager</title>
+    <title type="text">Seahorse Encryption Key Manager</title>
+    <revision version="0.1" date="2011-06-17" status="stub"/>
 
-    <credit type="author copyright">
+    <credit type="author">
       <name>Jim Campbell</name>
-      <email its:translate="no">jwcampbell@gmail.com</email>
-      <years>2013</years>
-    </credit>
-    <credit type="author copyright">
-      <name>Aruna Sankaranarayanan</name>
-      <email its:translate="no">aruna.evam@gmail.com</email>
-      <years>2013</years>
+      <email>jwcampbell@gmail.com</email>
     </credit>
 
-    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-
-    <desc><app>Passwords and Keys</app> can be used to save your important
-    passwords and to create and manage PGP and SSH keys.</desc>
+    <desc>Seahorse Encryption Key Manager</desc>
   </info>
 
-  <title>
-    <media its:translate="no" type="image" mime="image/png" src="figures/seahorse.png" />
-    Passwords and Keys
-  </title>
+  <title>Seahorse Encryption Key Manager</title>
 
-  <section id="passwords" style="2column">
-    <title>Stored passwords and password keyrings</title>
+  <p>Welcome to the <app>Seahorse</app> help guide.</p>
+  
+  <section id="learn-about-keys" style="2column">
+    <title>Learn about keys</title>
+    
+  </section>
+  
+  <section id="create-keys" style="2column">
+    <title>Create keys</title>
+    
   </section>
 
-  <section id="pgp-keys" style="2column">
-    <title>PGP keys</title>
+  <section id="use-keys" style="2column">
+    <title>Use keys</title>
+    
   </section>
 
-  <section id="ssh-keys" style="2column">
-    <title>SSH Keys</title>
+  <section id="back-up-and-secure-keys" style="2column">
+    <title>Back-up and secure your keys</title>
+    
   </section>
 
-  <!--
-  TODO: This section will be updated after the certificates UI is revised
-  <section id="certificates" style="2column">
-    <title>Certificates</title>
-  </section>
-  -->
-
-  <section id="misc" style="2column">
-    <title>Miscellaneous</title>
+  <section id="revoke-keys" style="2column">
+    <title>Revoke your keys</title>
+    
   </section>
 
 </page>
