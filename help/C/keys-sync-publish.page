@@ -77,7 +77,7 @@
 
 </section>
 
-<section>
+<section id="sync">
   <title>Sync your keys</title>
 
   <p>Keys in your keyring may have to be synced with a key server to ensure
