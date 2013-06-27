@@ -3,30 +3,59 @@
       id="key-new-userid">
   <info>
     <link type="guide" xref="index#use-keys"/>
-    <revision version="0.1" date="2011-10-23" status="stub"/>
 
-    <credit type="author">
-      <name>Jim Campbell</name>
-      <email>jwcampbell@gmail.com</email>
+    <revision version="0.1" date="2011-10-23" status="stub"/>
+    <revision pkgversion="3.9" version="0.1" date="2013-06-27" status="draft"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email>aruna.evam@gmail.com</email>
     </credit>
 
     <desc></desc>
   </info>
 
-  <title>Associate a new UserID with an existing key</title>
+  <title>Associate a new user ID with an existing key</title>
 
-  <comment>
-    <cite date="2011-10-23" href="mailto:jwcampbell@gmail.com">Jim Campbell</cite>
-    <p>This assumes the reader knows how to.... By the end of this page,
-    the reader will be able to....</p>
-  </comment>
-
-  <p>Short introductory text...</p>
+  <p>A key can be associated with multiple user IDs. This is helpful when you
+  want to communicate with several people and one of them does not recognize
+  the email address mentioned in your key properties. This person may not be
+  able to identify your public key since it mentions a different mail ID than
+  the one they know. In such scenarios, if you do not want to create a new key
+  or edit the properties of the existing key, you can add a new user ID having
+  a different set of properties. This also saves you the trouble of remembering
+  and managing a lot of passwords.</p>
 
   <steps>
-    <item><p>First step...</p></item>
-    <item><p>Second step...</p></item>
-    <item><p>Third step...</p></item>
+    <title>To add an extra user ID:</title>
+      <item>
+	<p>Select the <em>PGP key</em> of your choice from the list.</p>
+      </item>
+      <item>
+        <p>Right click on the key and choose
+	<guiseq><gui>Properties</gui>
+	<gui>Names and Signatures</gui></guiseq>.</p>
+      </item>
+      <item>
+	<p>Click the <gui style="button">Add Name</gui> button to add a new
+	user ID.</p>
+      </item>
+      <item>
+	<p>In the new dialog that opens up, fill the correct details for
+	the new user ID, like <gui>Full Name</gui>, <gui>Email Address</gui>
+	and <gui>Key Comment</gui>.</p>
+      </item>
+      <item>
+	<p>You will be asked to enter the passphrase you used while creating
+	the key. Enter the correct passphrase and click
+	<gui style="button">OK</gui> to finish.</p>
+      </item>
+      <item>
+	<p>Your new user ID will now be listed under <gui>Names and
+	Signatures</gui>.</p>
+      </item>
   </steps>
+
+<!--TODO What is Primary? How to change it? Deleting user IDs, links.-->
 
 </page>
