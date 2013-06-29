@@ -41,12 +41,12 @@
       </item>
       <item>
 	      <p>In the new dialog that opens up, select the folder in which your
-	      key is stored, and click <gui style="button">Open</gui>.</p>
+	      key is stored.</p>
       </item>
       <item>
 	      <p>Select the key of your choice from the folder chosen in the
-	      previous step. Pgp keys end with <file>pgp</file> and gpg keys end
-	      with <file>gpg</file>, SSH <em>Public keys</em> may end with
+	      previous step. PGP keys end with <file>pgp</file> and GPG keys end
+	      with <file>gpg</file>, and SSH <em>Public keys</em> may end with
 	      <file>.pub</file>.</p>
       </item>
       <item>
