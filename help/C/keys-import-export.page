@@ -11,13 +11,17 @@
       <name>Aruna Sankaranarayanan</name>
       <email>aruna.evam@gmail.com</email>
     </credit>
+    <credit type="editor copyright">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
 
     <desc></desc>
   </info>
 
   <title>Import and export keys</title>
 
-  <p>If you have received a key file by e mail, you might want to import it
+  <p>If you have received a key file by email, you might want to import it
   into <app>Passwords and Keys</app>. You can also export the existing keys in
   <app>Passwords and Keys</app> and email them to the people you communicate
   with.</p>
@@ -32,21 +36,21 @@
   <steps>
     <title>How do I manually import a key?</title>
       <item>
-	<p>Select
-	<guiseq><gui style="menu">File</gui><gui>Import…</gui></guiseq>.</p>
+	      <p>Select
+	      <guiseq><gui style="menu">File</gui><gui>Import…</gui></guiseq>.</p>
       </item>
       <item>
-	<p>In the new dialog that opens up, select the folder in which your
-	key is stored, and click <gui style="button">Open</gui>.</p>
+	      <p>In the new dialog that opens up, select the folder in which your
+	      key is stored, and click <gui style="button">Open</gui>.</p>
       </item>
       <item>
-	<p>Select the key of your choice from the folder chosen in the
-	previous step. Pgp keys end with <file>pgp</file> and gpg keys end with
-	<file>gpg</file>, SSH <em>Public keys</em> may end with
-	<file>.pub</file>.</p>
+	      <p>Select the key of your choice from the folder chosen in the
+	      previous step. Pgp keys end with <file>pgp</file> and gpg keys end
+	      with <file>gpg</file>, SSH <em>Public keys</em> may end with
+	      <file>.pub</file>.</p>
       </item>
       <item>
-	<p>Click <gui style="button">Open</gui>.</p>
+	      <p>Click <gui style="button">Open</gui>.</p>
       </item>
   </steps>
 
@@ -62,7 +66,7 @@
 <section id="export">
   <title>Export your keys</title>
 
-  <p>If you want to email a specific key to someone, you must export the key
+  <p>If you want to email a specific key to someone, you need to export the key
   file from <app>Passwords and Keys</app> to your computer first.</p>
 
   <steps>
@@ -72,11 +76,11 @@
       </item>
       <item>
         <p>Select
-	<guiseq><gui style="menu">File</gui><gui>Export…</gui></guiseq>.</p>
+          <guiseq><gui style="menu">File</gui><gui>Export…</gui></guiseq>.</p>
       </item>
       <item>
-	<p>In the dialog that opens up, select the folder in which you want
-	your key to be stored.</p>
+        <p>In the dialog that opens up, select the folder in which you want 
+        your key to be stored.</p>
       </item>
       <item>
         <p>Click <gui style="button">Export</gui>.</p>
