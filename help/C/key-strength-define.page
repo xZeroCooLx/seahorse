@@ -24,19 +24,20 @@
   makes the generated password less easy to guess, and thus, more secure.</p>
 
   <p>The idea of key strength is similar. <app>Passwords and Keys</app>
-  generates an uncommon and different number every single time you create a
-  key, which you can think of as a secret password made by the key to keep
-  your encrypted data safe. However, it is left to you to choose your key
-  strength, which is the size of the generated random number. Key strength can
-  be defined in terms of 1024, 1536 or 2048 bits.</p>
+  generates a unique and different number every single time you create a key,
+  which you can think of as a secret password that the key creates to keep your
+  encrypted data safe. The size of this generated random number determines how
+  strong your key is. In general, the larger the random number, the stronger
+  the key. </p>
 
-  <p>It is quite easy to see that higher the key strength, the more difficult
-  and time consuming it is to guess the associated random number. You should
-  choose your key strength in <app>Passwords and Keys</app> depending on how
-  long you intend to use the key, that is, depending on how long you want the
-  key to remain secure. Keys having a higher value of key strength remain
-  secure for more number of years. In fact it would take an average computer
-  more than 14 billion years to crack a key that is 2048 bits long.</p>
+  <p>It is difficult and more time consuming to break a strong key, but since
+  stronger keys also contain a large random number, they make the encryption
+  process slow. You should choose your key strength in
+  <app>Passwords and Keys</app> depending on how long you intend to use the
+  key, that is, depending on how long you want the key to remain secure. Keys
+  having a higher value of key strength remain secure for more number of years.
+  It would take the average computer more than 14 billion years to crack a key
+  that is 2048 bits long.</p>
 
   <!-- stefw: I would suggest basing this page off the current
     reccomendations for key strength. The basic concepts for key
