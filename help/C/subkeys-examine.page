@@ -47,6 +47,6 @@
     <p>While signing another key, <app>Passwords and Keys</app> automatically
     chooses the master key for signing, when you select a <gui>GnuPG keys</gui>
     keypair to sign with.</p>
- </note>
+  </note>
 
 </page>
