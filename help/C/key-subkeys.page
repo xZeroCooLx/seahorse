@@ -1,5 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="topic" style="task"
+      type="guide" style="task"
       id="key-subkeys">
   <info>
     <link type="guide" xref="learn-about-keys" group="second"/>
@@ -20,10 +20,10 @@
 
   <p>Though it is very important to keep your keys safe, it can become quite
   tedious to do so when you have many keys. <app>Passwords and Keys</app>
-  provides a simple solution to key safety by using special keys called
-  <em>subkeys</em> for signing and encryption.</p>
+  provides a simple solution to key safety by using <em>subkeys</em> for
+  signing and encryption.</p>
 
-  <p>Whenever you create a new public encryption key, a <em>key pair</em> is
+  <p>Whenever you create a new public encryption key, a <em>keypair</em> is
   generated instead of a single key. This keypair consists of a main key, also
   called the <em>master key</em>, which can only sign, and a <em>subkey</em>
   for encryption and decryption. Additional subkeys can be created for signing.
@@ -47,84 +47,7 @@
       </item>
   </list>
 
-<section id ="check">
-  <title>Examine your keypair</title>
-
-  <p>You can check the contents of a keypair to see the properties of a
-  subkey.</p>
-
-  <steps>
-    <title>To see all the <em>subkeys</em> in a keypair:</title>
-      <item>
-	<p>Select the <em>GnuPG keypair</em> of your choice from the list.</p>
-      </item>
-      <item>
-	<p>Right click on the key chosen in the previous step and select
-	<guiseq><gui>Properties</gui><gui>Details</gui></guiseq>.</p>
-      </item>
-      <item>
-	<p>If the <gui>Subkeys</gui> section is not expanded, expand
-	it.</p>
-      </item>
-      <item>
-	<p>Out of the two keys listed, the first one is your master key and
-	all the other keys that follow it are your subkeys.</p>
-	<note style="bug">
-	  <p>This is a bug. When you create a new public cryptography key and
-	  check the <gui>Subkeys</gui> section, you will see two subkeys listed
-	  even though only one is created by default.  This is because
-	  <app>Passwords and Keys</app> lists all the keys in the keypair in
-	  the <gui>Subkeys</gui> section instead of listing only the subkeys.
-	  So, the master key is also listed under <gui>Subkeys</gui> even
-	  though it is not one.</p>
-	</note>
-      </item>
-  </steps>
-
-  <note style="info">
-    <p><app>Passwords and Keys</app> stores your keypairs under
-    <gui>GnnuPG Keys</gui> if you have enabled the
-    <guiseq><gui style="menu">View</gui>
-    <gui style="menuitem">By Keyring</gui></guiseq> option. While signing, you
-    only need to select the keypair, <app>Passwords and Keys</app>
-    automatically chooses the master key for signing.</p>
- </note>
-
-</section>
-
-<section id="add">
-  <title>Add extra <em>subkeys</em></title>
-
-  <p>You can have additional subkeys for the same master key. You have to
-  choose the right subkey each time you want to encrypt or sign when you do
-  this.</p>
-
-  <steps>
-    <title>To add extra subkeys:</title>
-      <item>
-        <p>Select the <em>GnuPG keypair</em> of your choice from the list.</p>
-      </item>
-      <item>
-	<p>Right click on the key chosen in the previous step and select
-	<guiseq><gui>Properties</gui><gui>Details</gui></guiseq>.</p>
-      </item>
-      <item>
-        <p>If the <gui>Subkeys</gui> section is not expanded, expand it.</p>
-      </item>
-      <item>
-	<p>Click the <gui style="button">Add</gui>button to add a new subkey.</p>
-      </item>
-      <item>
-	<p>Choose the right properties for your key by selecting the
-	appropriate <gui>Key Type</gui>, <gui>Key Length</gui> and
-	<gui>Expiration Date</gui> and click <gui style="button">OK</gui>.</p>
-	<note style="info">
-	  <p>Always ensure that your subkey does not expire after your master
-	  key since a subkey is useless when its master key has expired.</p>
-	</note>
-      </item>
-  </steps>
-
-</section>
-
+  <section id="more" style="2column">
+    <title>More about subkeys</title>
+  </section>
 </page>
