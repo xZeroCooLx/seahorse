@@ -18,26 +18,26 @@
   <title>What does key strength mean?</title>
 
   <p>Whenever you pick a password, there are two factors to consider: the
-  length of the password and how uncommon the password is. You try to satisfy
-  these requirements by choosing a reasonably long password with a random mix
-  of lower case and upper case alphabets, special characters, and numbers. This
-  makes the generated password less easy to guess, and thus, more secure.</p>
+  length of the password and how easy it is to guess the password.  Choosing a
+  reasonably long password with a random mix of lower case and upper case
+  alphabets, special characters, and numbers makes your password hard to guess,
+  and thus, more secure.</p>
 
   <p>The idea of key strength is similar. <app>Passwords and Keys</app>
-  generates a unique and different number every single time you create a key,
-  which you can think of as a secret password that the key creates to keep your
-  encrypted data safe. The size of this generated random number determines how
-  strong your key is. In general, the larger the random number, the stronger
-  the key. </p>
+  generates a random set of characters every time you create a key, which acts
+  as a secret cipher that the key uses to encrypt your data. The length of
+  this generated random sequence determines how strong your key is. In
+  general, the longer the sequence, stronger is the generated key.</p>
 
-  <p>It is difficult and more time consuming to break a strong key, but since
-  stronger keys also contain a large random number, they make the encryption
-  process slow. You should choose your key strength in
-  <app>Passwords and Keys</app> depending on how long you intend to use the
-  key, that is, depending on how long you want the key to remain secure. Keys
-  having a higher value of key strength remain secure for more number of years.
-  It would take the average computer more than 14 billion years to crack a key
-  that is 2048 bits long.</p>
+  <p>It is difficult and more time consuming to break a strong key, but
+  stronger keys also slow down the encryption and signing process because they
+  contain more characters and are bigger in size. You should choose your key
+  strength in <app>Passwords and Keys</app> depending on how long you want to
+  use they key. If you are going to be using they key for a very short period,
+  a small key is sufficient while stronger keys should be generated if you are
+  going to use them for longer periods of time. It would take the average
+  computer more than 14 billion years to crack a key that is 2048 bits
+  long.</p>
 
   <!-- stefw: I would suggest basing this page off the current
     reccomendations for key strength. The basic concepts for key
