@@ -30,6 +30,12 @@
     <item><p>Enter a password, then confirm the password and click
     <gui>Create</gui>.</p></item>
   </steps>
+
+  <note style="info">
+    <p>You can change default settings for key expiration, key strength and
+    key type by expanding the <gui>Advanced key options</gui> panel while
+    creating a new key.</p>
+  </note>
   
   <p><app>Passwords and Keys</app> will take some time to generate your key.
   While your key is being created, move your mouse around and press some keys
