@@ -5,12 +5,13 @@
     <link type="guide" xref="index#use-keys"/>
 
     <revision version="0.1" date="2011-10-23" status="stub"/>
+    <revision pkgversion="3.9" version="0.1" date="2013-07-03" status="draft"/>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <credit type="author">
-      <name>Jim Campbell</name>
-      <email>jwcampbell@gmail.com</email>
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email>aruna.evam@gmail.com</email>
     </credit>
 
     <desc></desc>
@@ -18,18 +19,23 @@
 
   <title>What happens if my key expires?</title>
 
-  <comment>
-    <cite date="2011-10-23" href="mailto:jwcampbell@gmail.com">Jim Campbell</cite>
-    <p>This assumes the reader knows how to.... By the end of this page,
-    the reader will be able to....</p>
-  </comment>
+  <p>Depending on how long you want your key to be valid, you can
+  <link xref="key-expiration-setting">set an expiration date</link> for it. By
+  default, <app>Passwords and Keys</app> sets all keys to be valid forever,
+  that is the keys never expire.</p>
 
-  <p>Short introductory text...</p>
+  <list>
+    <title>When your key expires</title>
+      <item>
+        <p>It can no longer be used to encrypt and decrypt messages.</p>
+      </item>
+      <item>
+	<p>It cannot sign other keys or receive signatures from other
+	keys.</p>
+      </item>
+  </list>
 
-  <steps>
-    <item><p>First step...</p></item>
-    <item><p>Second step...</p></item>
-    <item><p>Third step...</p></item>
-  </steps>
+  <p>A key that has expired must be deleted, but make sure to decrypt any
+  messages that have been encrypted using the key before you delete it.</p>
 
 </page>
