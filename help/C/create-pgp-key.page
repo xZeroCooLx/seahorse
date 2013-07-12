@@ -33,8 +33,9 @@
 
   <note style="info">
     <p>You can change default settings for key expiration, key strength and
-    key type by expanding the <gui>Advanced key options</gui> panel while
-    creating a new key.</p>
+    key type by expanding the
+    <link xref="pgp-key-advanced-options"><gui>Advanced key options</gui></link>
+    panel while creating a new key.</p>
   </note>
 
   <p><app>Passwords and Keys</app> will take some time to generate your key.
