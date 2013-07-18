@@ -19,27 +19,33 @@
 
   <title>What happens if my key expires?</title>
 
+  <p>When your key expires, it becomes invalid. This means:</p>
+
+  <list>
+    <item>
+      <p>It can no longer be used to encrypt and decrypt messages.</p>
+    </item>
+    <item>
+      <p>It cannot sign other keys or receive signatures from other
+      keys.</p>
+    </item>
+  </list>
+
   <p>Depending on how long you want your key to be valid, you can
   <link xref="key-expiration-setting#set">set an expiration date</link> for it. By
   default, <app>Passwords and Keys</app> sets all keys to be valid forever,
   that is the keys never expire.</p>
 
-  <list>
-    <title>When your key expires:</title>
-      <item>
-        <p>It can no longer be used to encrypt and decrypt messages.</p>
-      </item>
-      <item>
-	<p>It cannot sign other keys or receive signatures from other
-	keys.</p>
-      </item>
-  </list>
-
-  <p>The expiration date can be
+  <p>The expiration date on a key can be
   <link xref="key-expiration-setting#change">changed</link> anytime, even after
-  the key has expired. If you do not want to do this, you should
-  <link xref="key-delete">delete</link> or
-  <link xref="key-disabling">revoke</link> the key but make sure to decrypt any
-  messages that have been encrypted using the key before you delete it.</p>
+  the key has expired. However, if you want to stop using the expired key, you
+  should <link xref="key-delete">delete</link> or
+  <link xref="key-disabling">revoke</link> it.</p>
+
+  <note style="info">
+    <p>If you have any messages encrypted with an expired key, you must change
+    the expiration date on the key to decrypt such messages before deleting or
+    revoking it.</p>
+  </note>
 
 </page>
