@@ -4,10 +4,10 @@
       id="introduction">
 
   <info>
-    <link type="guide" xref="index"/>
+    <link type="guide" xref="index" group="#first"/>
 
-    <revision pkgversion="3.8" date="2013-02-26" status="stub"/>
-    <revision pkgversion="3.9" version="0.1" date="2013-06-13" status="review"/>
+    <revision version="0.1" date="2011-10-23" status="stub"/>
+    <revision pkgversion="3.9" version="0.1" date="2013-06-24" status="review"/>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
@@ -22,14 +22,12 @@
     remember.</desc>
   </info>
 
-
   <title>Introduction</title>
 
   <p>Welcome to the <app>Passwords and Keys</app> help guide.
   <app>Passwords and Keys</app> creates and stores security tokens, helping to
   keep your information secure on your computer, and secure when you send
   information over a network.</p>
-
   <p>Using <app>Passwords and Keys</app>, you can:</p>
 
   <list>
