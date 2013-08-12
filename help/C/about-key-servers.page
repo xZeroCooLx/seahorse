@@ -2,6 +2,7 @@
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
       id="about-key-servers">
+
   <info>
     <link type="guide" xref="learn-about-keys"/>
 
@@ -16,8 +17,8 @@
       <years>2013</years>
     </credit>
 
-    <desc>Use key servers to <link xref="keys-publish">publish</link> keys and
-    <link xref="keys-retrieve-remote">retrieve</link> remote keys.</desc>
+    <desc>Use key servers to <link xref="pgp-publish">publish</link> keys and
+    <link xref="pgp-retrieve-remote">retrieve</link> remote keys.</desc>
   </info>
 
   <title>Key servers</title>
@@ -33,11 +34,11 @@
   address(URL) which can be used to submit or import public keys.</p>
 
   <p><app>Passwords and Keys</app> provides you an interface to
-  <link xref="keys-publish">publish</link> your public keys or to
-  find and <link xref="keys-retrieve-remote">retrieve a remote key</link>.
+  <link xref="pgp-publish">publish</link> your public keys or to
+  find and <link xref="pgp-retrieve-remote">retrieve a remote key</link>.
   You can also use <app>Passwords and Keys</app> to sync the keys in your
   keyring with the key server so that they are updated when someone
-  <link xref="key-signing">signs</link> them or modifies them in some other
+  <link xref="about-key-signing">signs</link> them or modifies them in some other
   way.</p>
 
   <list>

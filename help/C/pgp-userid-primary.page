@@ -1,9 +1,9 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="userid-primary">
+      id="pgp-userid-primary">
   <info>
-    <link type="guide" xref="key-userid#add-remove"/>
+    <link type="guide" xref="pgp-userid#add-remove"/>
 
     <revision version="0.1" date="2011-10-23" status="stub"/>
     <revision pkgversion="3.9" version="0.1" date="2013-06-27" status="draft"/>

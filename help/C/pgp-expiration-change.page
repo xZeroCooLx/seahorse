@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="key-expiration-date-change">
+      id="pgp-expiration-change">
 
   <info>
     <link type="guide" xref="index#pgp-keys"/>
@@ -46,7 +46,7 @@
         </item>
         <item>
 	  <p>To change the expiration date of a
-	  <link xref="keys-subkeys">subkey</link>, expand the
+	  <link xref="about-subkeys">subkey</link>, expand the
 	  <gui>Subkeys</gui> panel and select the subkey of your choice from
 	  the list. Press the <gui style="button">Expire</gui> button on the
 	  left of the panel and select the new expiration date of your

@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="key-photoid">
+      id="pgp-photoid">
+
   <info>
     <link type="guide" xref="index#pgp-keys"/>
 
@@ -26,8 +27,8 @@
   ownership of your keys after looking at your photo. Though a key with an
   attached photo will provide a slightly better level of security than a key
   with no photo, checking the photo on a key is not as safe as checking the
-  <link xref="key-fingerprint">fingerprint of the key</link> because anyone
-  having your photos can create a key with your photo ID while the key
+  <link xref="about-key-fingerprint">fingerprint of the key</link> because
+  anyone having your photos can create a key with your photo ID while the key
   fingerprint cannot be mimicked.</p>
 
   <note style="info">

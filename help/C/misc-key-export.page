@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="keys-export">
+      id="misc-key-export">
+
   <info>
     <link type="guide" xref="index#misc"/>
 
@@ -30,7 +31,7 @@
   binary format or an ASCII format. This creates key files on your computer
   which contain all the information about the exported key. This can be useful
   when you want to mail a copy of your key to someone or
-  <link xref="backup-keys">backup your keys</link>.</p>
+  <link xref="misc-key-backup">backup your keys</link>.</p>
 
 <section id="binary">
   <title>Export keys to binary files</title>
@@ -81,7 +82,7 @@
         <p>Expand the <gui>Subkeys</gui> panel.</p>
       </item>
       <item>
-	<p>From the list of <link xref="keys-subkeys">subkeys</link>, select
+	<p>From the list of <link xref="about-subkeys">subkeys</link>, select
 	the key you wish to export.</p>
       </item>
       <item>

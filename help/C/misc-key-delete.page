@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="key-delete">
+      id="misc-key-delete">
+
   <info>
     <link type="guide" xref="index#misc"/>
 
@@ -25,7 +26,7 @@
   <p>If you are no longer communicating with someone, you can delete the copy
   of their key on your computer using <app>Passwords and Keys</app>. You can
   also permanently delete a key you own, provided it has never been published
-  on a <link xref="key-servers-what-are-they">key server</link>.</p>
+  on a <link xref="about-key-servers">key server</link>.</p>
 
   <steps>
     <title>To delete a key:</title>
@@ -53,11 +54,11 @@
     delete only the local copy of the key on your computer. The
     deleted key can still be retrieved from a key server and used to encrypt
     messages to you. You can also
-    <link xref="keys-import">import</link> the deleted key from a
+    <link xref="misc-key-import">import</link> the deleted key from a
     key server if you wish to restore it. Such a key can be prevented from
     being used only when it
-    <link xref="key-expired">expires</link> or when you
-    <link xref="key-disabling">revoke</link> it.</p>
+    <link xref="pgp-expired">expires</link> or when you
+    <link xref="misc-key-revoke">revoke</link> it.</p>
   </note>
 
 </page>
