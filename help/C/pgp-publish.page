@@ -21,13 +21,14 @@
 
   <title>Publish your public keys</title>
 
-  <p>After you <link xref="create-pgp-key">create</link> your PGP keypair you
-  can choose to publish the <em>Public key</em> on it. This makes the key
-  easily accessible to anybody who wants to communicate with you and saves you
-  the hassle of mailing the key individually to all your communicators.
-  However, you can also choose to not publish your key if you wish to share it
-  with only a select few people. You need a working Internet connection to
-  publish your keys.</p>
+  <p>After <link xref="pgp-create">creating</link> your
+  <link xref="what-is-pgp-key">PGP keypair</link> you can choose to publish the
+
+  <em>public key</em> on the Internet. This allows anyone to
+  <link xref="import-keys">import</link> your public keys and send you
+  encrypted files and communication. When you keep your public keys unpublished
+  you can selectively share them with the people you want to communicate
+  with.</p>
 
   <steps>
     <title>How do I publish my key?</title>

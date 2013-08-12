@@ -2,7 +2,7 @@
       xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:ui = "http://projectmallard.org/ui/1.0/"
       type="topic" style="task"
-      id="create-ssh-key">
+      id="ssh-create">
   <info>
     <link type="guide" xref="index#ssh-keys"/>
 
