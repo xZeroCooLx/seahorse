@@ -56,8 +56,8 @@
       <title>Key</title>
 	<p>A key is used to encrypt and decrypt files and communication. A key
 	may also be used to login to a remote computer. Some types of keys are
-	<link xref="what-is-pgp-key">PGP keys</link> and
-	<link xref="what-is-ssh-key">SSH keys</link>.</p>
+	<link xref="about-pgp">PGP keys</link> and
+	<link xref="about-ssh">SSH keys</link>.</p>
     </item>
     <item>
       <title>Keyring</title>

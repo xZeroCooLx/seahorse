@@ -2,6 +2,7 @@
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
       id="about-key-fingerprint">
+
   <info>
     <link type="guide" xref="learn-about-keys" group="first"/>
 
@@ -33,10 +34,10 @@
   identify the key you are looking for is to compare the fingerprints of the
   two keys with the fingerprint of the key you require.</p>
 
-  <p>It is the fingerprint of a key that is verified when you try to login to
-  a remote computer using <link xref="what-is-ssh-key">SSH</link>. While
-  signing a <link xref="what-is-pgp-key">PGP</link> key, you must always check
-  the key fingerprint to ensure that you are signing the correct key.</p>
+  <p>It is the fingerprint of a key that is verified when you try to login to a
+  remote computer using <link xref="about-ssh">SSH</link>. While signing a
+  <link xref="about-pgp">PGP</link> key, you must always check the key
+  fingerprint to ensure that you are signing the correct key.</p>
 
 <section id="fingerprint-ui">
   <title>Fingerprints on <app>Passwords and Keys</app></title>

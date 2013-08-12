@@ -2,6 +2,7 @@
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
       id="pgp-create">
+
   <info>
     <link type="guide" xref="index#pgp-keys" group="#first"/>
 
@@ -20,7 +21,7 @@
 
   <title>Create a new PGP key</title>
 
-  <p>A <link xref="what-is-pgp-key"><em>PGP key</em></link> will allow to
+  <p>A <link xref="about-pgp"><em>PGP key</em></link> will allow to
   encrypt your email and files. Here is how to create a new key:</p>
 
   <steps>
@@ -31,7 +32,7 @@
     add a comment, such as whether the key is a personal key or a key for work,
     your date of birth, or the date you created the key. These details when
     taken together are called your
-    <link xref="key-userid">user ID</link>.</p></item>
+    <link xref="pgp-userid">user ID</link>.</p></item>
     <item><p>Click <gui>Create</gui>.</p></item>
     <item><p>Enter a password, then confirm the password and click
     <gui>Create</gui>.</p></item>
@@ -40,7 +41,7 @@
   <note style="info">
     <p>You can change default settings for key expiration, key strength and
     key type by expanding the
-    <link xref="pgp-key-advanced-options"><gui>Advanced key options</gui></link>
+    <link xref="pgp-advanced-options"><gui>Advanced key options</gui></link>
     panel.</p>
   </note>
 

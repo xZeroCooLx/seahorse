@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="keys-sync">
+      id="pgp-sync">
+
   <info>
     <link type="guide" xref="index#pgp-keys"/>
 

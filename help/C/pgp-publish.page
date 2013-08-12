@@ -1,7 +1,8 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="keys-publish">
+      id="pgp-publish">
+
   <info>
     <link type="guide" xref="index#pgp-keys"/>
 
@@ -22,10 +23,10 @@
   <title>Publish your public keys</title>
 
   <p>After <link xref="pgp-create">creating</link> your
-  <link xref="what-is-pgp-key">PGP keypair</link> you can choose to publish the
+  <link xref="about-pgp">PGP keypair</link> you can choose to publish the
 
   <em>public key</em> on the Internet. This allows anyone to
-  <link xref="import-keys">import</link> your public keys and send you
+  <link xref="misc-key-import">import</link> your public keys and send you
   encrypted files and communication. When you keep your public keys unpublished
   you can selectively share them with the people you want to communicate
   with.</p>
@@ -43,7 +44,7 @@
 	<p>Click the <gui style="button">Key Servers</gui> button.</p>
       </item>
       <item>
-	<p>Three <link xref="key-servers-what-are-they">key servers</link>
+	<p>Three <link xref="about-key-servers">key servers</link>
 	will already be listed by <app>Passwords and Keys</app>.</p>
 	<note style="tip">
 	  <p>You can also add the key server of your choice to the list by
