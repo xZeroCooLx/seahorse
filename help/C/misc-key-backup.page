@@ -1,8 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="misc-key-backup">
-
+      id="backup-keys">
   <info>
     <link type="guide" xref="index#misc"/>
 
@@ -31,15 +30,15 @@
 
   <note style="tip">
     <p>Even if your public key has been
-    <link xref="pgp-publish">published</link>, save a copy of it because
-    sometimes a <link xref="about-key-servers">key server</link> may be
+    <link xref="keys-publish">published</link>, save a copy of it because
+    sometimes a <link xref="key-servers-what-are-they">key server</link> may be
     corrupted or may not be available.</p>
   </note>
 
   <steps>
     <title>To back-up your keys:</title>
     <item>
-      <p><link xref="misc-key-export">Export</link> the key of your choice from
+      <p><link xref="keys-export">Export</link> the key of your choice from
       the list.</p>
     </item>
     <item>

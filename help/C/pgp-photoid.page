@@ -1,8 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="pgp-photoid">
-
+      id="key-photoid">
   <info>
     <link type="guide" xref="index#pgp-keys"/>
 
@@ -27,8 +26,8 @@
   ownership of your keys after looking at your photo. Though a key with an
   attached photo will provide a slightly better level of security than a key
   with no photo, checking the photo on a key is not as safe as checking the
-  <link xref="about-key-fingerprint">fingerprint of the key</link> because
-  anyone having your photos can create a key with your photo ID while the key
+  <link xref="key-fingerprint">fingerprint of the key</link> because anyone
+  having your photos can create a key with your photo ID while the key
   fingerprint cannot be mimicked.</p>
 
   <note style="info">
@@ -54,18 +53,17 @@
       </item>
       <item>
         <p>Select the photo of your choice from anywhere on your computer.</p>
+        <note style="info">
+          <p>The photos you select should be small in size, preferably about
+	  120 by 150 pixels. Since a photo ID is always attached to its key, a
+	  large photo will increase the key size and slow down all operations
+	  that use the key. <app>Passwords and Keys</app> resizes large photos
+	  to the optimal size after asking for your confirmation.</p>
+        </note>
       </item>
       <item>
         <p>Click <gui style="button">Close</gui> to finish.</p>
       </item>
   </steps>
-
-  <note style="tip">
-    <p>The photos you select should be small in size, preferably about 120 by
-    150 pixels. Since a photo ID is always attached to its key, a large photo
-    will increase the key size and slow down all operations that use the key.
-    <app>Passwords and Keys</app> resizes large photos to the optimal size
-    after asking for your confirmation.</p>
-  </note>
 
 </page>

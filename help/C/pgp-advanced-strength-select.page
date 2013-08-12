@@ -1,9 +1,9 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="pgp-advanced-strength-select">
+      id="key-strength-select">
   <info>
-    <link type="guide" xref="pgp-advanced-options"/>
+    <link type="guide" xref="pgp-key-advanced-options"/>
 
     <revision version="0.1" date="2011-10-23" status="stub"/>
     <revision pkgversion="3.9" version="0.1" date="2013-07-02" status="review"/>
@@ -29,14 +29,14 @@
   <title>What key strength should I use?</title>
 
   <p>When you create a key or a subkey you can choose its
-  <link xref="about-key-strength">key strength</link>.
+  <link xref="key-strength-define">key strength</link>.
   <app>Passwords and Keys</app> gives you a key strength of 2048 bits by
   default.</p>
 
   <steps>
     <title>Selecting your key strength:</title>
       <item>
-	<p>While <link xref="pgp-create">creating a PGP key</link>, you
+	<p>When <link xref="create-pgp-key">creating a PGP key</link>, you
 	can expand the <gui>Advanced key options</gui> panel to select settings
 	for key strength.</p>
       </item>
@@ -48,12 +48,12 @@
 	bits to 4096 bits.</p>
       </item>
   </steps>
-
   <note style="info">
-    <p>You can also manually enter the key strength in the textbox next to
-    <gui>Key Strength(bits)</gui>. If the value you enter is not divisible by
-    32, <app>Passwords and Keys</app> will change the value you enter to the
-    nearest multiple of 32. This number will be used as the key strength.</p>
+	  <p>You can also manually enter the key strength in the textbox provided
+	  next to <gui>Key Strength(bits)</gui>. If the value you enter is not
+	  divisible by 32, <app>Passwords and Keys</app> will change the value you
+	  enter to the nearest multiple of 32. This number will be used as the key
+	  strength.</p>
   </note>
 
 </page>

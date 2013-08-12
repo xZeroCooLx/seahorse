@@ -1,11 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="about-pgp">
-
+      id="what-is-pgp-key">
   <info>
     <link type="guide" xref="learn-about-keys" group="first"/>
-    <link type="seealso" xref="about-ssh"/>
+
     <revision version="0.1" date="2011-10-23" status="stub"/>
     <revision pkgversion="3.9" version="0.1" date="2013-07-03" status="review"/>
 
@@ -35,7 +34,7 @@
 
   <p><app>Passwords and Keys</app> is a key management application. Though it
   cannot be used to encrypt or sign files and messages, you can use it to
-  <link xref="about-key-signing">sign</link> trustworthy keys.</p>
+  <link xref="key-signing">sign</link> trustworthy keys.</p>
 
   <p>To secure your communication, you can use email clients like
   <app>Evolution</app> that provide

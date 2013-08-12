@@ -1,8 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="pgp-expired">
-
+      id="key-expired">
   <info>
     <link type="guide" xref="index#pgp-keys"/>
 
@@ -35,15 +34,15 @@
   </list>
 
   <p>Depending on how long you want your key to be valid, you can
-  <link xref="pgp-advanced-expiration-set">set an expiration date</link> for
-  it. By default, <app>Passwords and Keys</app> sets all keys to be valid
-  forever. That is, the keys never expire.</p>
+  <link xref="key-expiration-date-set">set an expiration date</link> for it. By
+  default, <app>Passwords and Keys</app> sets all keys to be valid forever,
+  that is the keys never expire.</p>
 
   <p>The expiration date on a key can be
-  <link xref="pgp-expiration-change">changed</link> anytime, even after
+  <link xref="key-expiration-date-change">changed</link> anytime, even after
   the key has expired. However, if you want to stop using the expired key, you
-  should <link xref="misc-key-delete">delete</link> or
-  <link xref="misc-key-revoke">revoke</link> it.</p>
+  should <link xref="key-delete">delete</link> or
+  <link xref="key-disabling">revoke</link> it.</p>
 
   <note style="info">
     <p>If you have any messages encrypted with an expired key, you must change

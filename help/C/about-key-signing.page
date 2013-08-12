@@ -23,12 +23,12 @@
 
   <title>Why do keys require a signature?</title>
 
-  <p>Public keys that have been <link xref="pgp-publish">published</link> on
-  <link xref="about-key-servers">key servers</link> contain the
-  <link xref="pgp-userid">user ID</link> of the key owner. It is quite easy for
-  someone to create a fake key with a user ID obtained from a key server. To
-  help people in verifying that your key is indeed genuinely yours, you can
-  sign your key and also ask people you know to sign your key.</p>
+  <p>Public keys that have been <link xref="keys-publish">published</link> on
+  key servers contain the <link xref="key-userid">user ID</link> of the key
+  owner. It is quite easy for someone to create a fake key with a user ID
+  obtained from a key server. To help people in verifying that your key is
+  indeed genuinely yours, you can sign your key and also ask people you know to
+  sign your key.</p>
 
   <p>A <em>web of trust</em> on the Internet is a group of people who have
   verified and signed each other's public keys. You can also establish a web of
@@ -40,12 +40,12 @@
   <title>How do I sign keys?</title>
 
   <p>When you generate a new key, it is automatically signed by you. Any new
-  <link xref="about-subkeys">subkeys</link> that you generate are signed
+  <link xref="keys-subkeys">subkeys</link> that you generate are signed
   automatically too. You can sign a key that you have
-  <link xref="pgp-retrieve-remote">retrieved</link> from a key server or
-  <link xref="misc-key-import">imported</link> into
-  <app>Passwords and Keys</app>.  When you sign a key you are vouching for the
-  it, so carefully verify the details of a key before signing it.</p>
+  <link xref="keys-retrieve-remote">retrieved</link> from a key server or
+  <link xref="keys-import">imported</link> into <app>Passwords and Keys</app>.
+  When you sign a key you are vouching for the it, so carefully verify the
+  details of a key before signing it.</p>
 
   <steps>
     <title>To sign an imported key:</title>
