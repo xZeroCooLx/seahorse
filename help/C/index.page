@@ -22,7 +22,8 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Passwords and Keys</desc>
+    <desc><app>Passwords and Keys</app> can be used to save your important
+    passwords and to create and manage PGP and SSH keys.</desc>
   </info>
 
   <title>
