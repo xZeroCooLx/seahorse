@@ -16,7 +16,8 @@
       <email its:translate="no">aruna.evam@gmail.com</email>
     </credit>
 
-    <desc>What should I know to create reasonably strong keys?</desc>
+    <desc>Create reasonably strong keys for short-term use and very strong keys
+    for long-term use.</desc>
   </info>
 
   <title>What does key strength mean?</title>
@@ -31,9 +32,9 @@
   <p>It is difficult and more time consuming to break a strong key, but
   stronger keys also slow down the encryption and signing process. You should
   choose your key strength in <app>Passwords and Keys</app> depending on how
-  long you want to use they key. A small key is sufficient if you are going to
-  be using it for a short period of time, but a longer key would be more secure
-  if you are going to be using it for a long period of time.</p>
+  long you want to use the key. A small key is sufficient if you are going to
+  be using it for a short period of time, but a larger key has better chances
+  of remaining secure for a long period of time.</p>
 
   <note style="tip">
     <p>It would take the average computer more than 14 billion years to crack a
