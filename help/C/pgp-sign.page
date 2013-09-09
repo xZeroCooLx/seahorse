@@ -6,7 +6,7 @@
   <info>
     <link type="guide" xref="pgp"/>
 
-    <revision pkgversion="3.9" date="2013-08-29" status="draft"/>
+    <revision pkgversion="3.9" date="2013-08-29" status="review"/>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
@@ -16,7 +16,7 @@
       <years>2013</years>
     </credit>
 
-    <desc>If you trust that a key is, you can sign it.</desc>
+    <desc>If you trust a key, you can sign it.</desc>
   </info>
 
   <title>Sign keys</title>
@@ -29,11 +29,12 @@
   <steps>
     <title>To sign a key:</title>
     <item>
-      <p><link xref="misc-key-import">Import</link> it into
+      <p>Import the <link xref="pgp-retrieve-remote">remote key</link> or
+      <link xref="misc-key-import">keyfile</link> of your choice into
       <app>Passwords and Keys</app>.</p>
     </item>
     <item>
-      <p>From the list of <gui>GnuPG keys</gui>select the imported key.</p>
+      <p>From the list of <gui>GnuPG keys</gui> select the imported key.</p>
     </item>
     <item>
       <p>Right click the key and select
@@ -49,12 +50,13 @@
       <gui style="radiobutton">Very carefully</gui>.</p>
     </item>
     <item>
-      <p>Select if you want to revoke your signature at a later date, and if
-      you want to make your signature public in the checkboxes provided.</p>
+      <p>Decide if you want to revoke your signature at a later date and if you
+      want to make your signature public, by ticking the checkboxes
+      provided.</p>
     </item>
     <item>
       <p>When you own more than one PGP key, select the key you want to sign
-      with from the list next to <gui>Signer</gui>.</p>
+      with, from the list next to <gui>Signer</gui>.</p>
     </item>
     <item>
       <p>Press the <gui style="button">Sign</gui> button to finish.</p>
