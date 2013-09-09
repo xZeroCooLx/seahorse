@@ -7,7 +7,7 @@
     <link type="guide" xref="pgp"/>
 
     <revision version="0.1" date="2011-10-23" status="stub"/>
-    <revision pkgversion="3.9" version="0.1" date="2013-06-18" status="draft"/>
+    <revision pkgversion="3.9" date="2013-06-18" status="review"/>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
@@ -71,10 +71,15 @@
     </item>-->
   </steps>
 
+  <note style="important">
+    <p>You need to be connected to the Internet while publishing your keys.</p>
+  </note>
+
   <note style="info">
     <title>What is a keyserver?</title>
     <p>Key servers are computers that store copies of public encryption keys
-    submitted to them, and share these copies with other key servers.</p>
+    submitted to them, and share these copies with other key servers through
+    the Internet.</p>
   </note>
 
 </page>
