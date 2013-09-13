@@ -22,8 +22,7 @@
       <years>2013</years>
     </credit>
 
-    <desc>Import keyfiles into <app>Passwords and Keys</app>, if they are not
-    automatically imported.</desc>
+    <desc>Import keys from keyfiles into <app>Passwords and Keys</app>.</desc>
   </info>
 
   <title>Import keys</title>
@@ -46,9 +45,8 @@
     </item>
     <item>
       <p>In the new dialog, select the key you wish to
-      import. PGP keys end with <file>pgp</file>, GPG keys end with
-      <file>gpg</file>, SSH public keys end with <file>.pub</file> while SSH
-      secret keys end with a number like 1, 2, 3 etc.</p>
+      import. PGP keys end with <file>pgp</file> or <file>asc</file>, GPG keys end with
+      <file>gpg</file>, SSH public keys end with <file>.pub</file>.</p>
     </item>
     <item>
       <p>Click <gui style="button">Open</gui>.</p>
@@ -56,11 +54,9 @@
   </steps>
 
   <p>Imported keys are automatically grouped according to their type. So,
-  <file>SSH</file> keys are stored in the <file>OpenSSH keys</file> section,
+  <file>SSH</file> keys are listed in the <file>OpenSSH keys</file> section,
   <file>PGP</file> and <file>GPG</file> keys are stored in the
-  <file>GnuPG keys</file> section, etc. To view all your keyrings, select,
-  <guiseq><gui style="menu">View</gui>
-  <gui style="menuitem">By keyring</gui></guiseq>.</p>
+  <file>GnuPG keys</file> section, etc.</p>
 
 </section>
 
