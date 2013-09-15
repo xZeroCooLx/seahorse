@@ -27,13 +27,12 @@
   explicitly choose another user ID instead.</p>
 
   <steps>
-    <title>To change your primary user ID:</title>
+    <title>To change the primary user ID in a PGP key:</title>
     <item>
       <p>Select the <gui>GnuPG keys</gui> keyring from the left side panel.</p>
     </item>
     <item>
-      <p>Select the <gui>Personal PGP key</gui> of your choice from the
-      list.</p>
+      <p>Select the <gui>Personal PGP key</gui> from the list.</p>
     </item>
     <item>
       <p>Right click on the selected key and select
@@ -41,7 +40,7 @@
       <gui>Names and Signatures</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Select the user ID of your choice from the list and click
+      <p>Select the new primary user ID from the list and click
       <gui style="button">Primary</gui>.</p>
     </item>
   </steps>
