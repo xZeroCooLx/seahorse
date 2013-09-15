@@ -26,13 +26,12 @@
   remove any additional user IDs that you have attached to the key.</p>
 
   <steps>
-    <title>To remove a user ID:</title>
+    <title>To remove a user ID from a PGP key:</title>
     <item>
       <p>Select the <gui>GnuPG keys</gui> keyring from the left side panel.</p>
     </item>
     <item>
-      <p>Select the <gui>Personal PGP key</gui> of your choice from the
-      list.</p>
+      <p>Select the <gui>Personal PGP key</gui> list.</p>
     </item>
     <item>
       <p>Right click on the selected key and choose
