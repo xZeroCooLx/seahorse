@@ -42,7 +42,7 @@
       </item>
       <item>
 	<p>Press the <gui style="button">Export</gui> button to save the
-	exported public key in a location of your choice.</p>
+	exported public key on your computer.</p>
       </item>
     </steps>
 
@@ -66,7 +66,7 @@
       </item>
       <item>
 	<p>Press the <gui style="button">Export Private Key</gui> button to
-	save the exported private key in a location of your choice.</p>
+	save the exported private key on your computer.</p>
       </item>
     </steps>
 
